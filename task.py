@@ -23,3 +23,33 @@
 #
 #Delete these comments before commit!
 #Good luck.
+import numpy as np
+
+def Matrix(a,b,c,d):
+	return np.matrix([[a, b], [c, d]])
+
+matrix_1 = Matrix(4,5,6,7)
+matrix_2 = Matrix(2,2,2,1)
+
+print "The first Matrix is : " 
+print matrix_1
+print ""
+
+print "The second Matrix is : " 
+print matrix_2
+print ""
+
+def sum(matrix_1,matrix_2):
+	return np.sum([matrix_1, matrix_2])
+	
+print "the sum of both is:"
+print sum(matrix_1,matrix_2)
+print ""
+
+def prod(matrix_1,matrix_2):
+	return np.prod([matrix_1, matrix_2])
+	
+	
+print "the product of both is:"
+print prod(matrix_1,matrix_2)
+print ""
