@@ -26,7 +26,7 @@
 import numpy as np
 
 def Matrix(a,b,c,d):
-	return np.matrix([[a, b], [c, d]])
+	return [[a, b], [c, d]]
 
 matrix_1 = Matrix(4,5,6,7)
 matrix_2 = Matrix(2,2,2,1)
