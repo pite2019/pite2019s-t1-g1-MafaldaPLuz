@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 29 13:49:45 2019
-
-@author: mafal
-"""
 import math
 
 class Matrix:
